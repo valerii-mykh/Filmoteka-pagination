@@ -5,7 +5,7 @@
  const prevPage=document.querySelector(".prev-page");
  const page=document.querySelector(".page");
  const nextPage=document.querySelector(".next-page");
- const maxItem=20;
+ const maxItem=10;
  let index=1;
   
   const pagination=Math.ceil(galleryItems.length/maxItem);
